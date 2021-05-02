@@ -23,6 +23,8 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+url                      : "https://karson33.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "vpnfactcheck/" # the subpath of your site, e.g. "/blog"
 
 # Build settings
 markdown: kramdown
