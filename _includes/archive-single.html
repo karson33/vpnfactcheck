@@ -25,7 +25,7 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.header.teaser %}
+    {% if include.type != "grid" and post.header.teaser %}
     <img src="{{ teaser | relative_url }}" alt="">
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">excerpt{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
