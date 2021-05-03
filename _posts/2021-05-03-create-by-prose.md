@@ -1,5 +1,12 @@
 ---
 published: false
+layout: post
+author: karson33
+categories:
+  - Github
+image: assets/images/1.jpg
+beforetoc: Lorem Dipsum before table of content
+toc: true
 ---
 This file and post is created by Prose.io remotely.
 
