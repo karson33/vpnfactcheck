@@ -4,7 +4,8 @@ layout: post
 author: karson33
 categories:
   - Github
-image: assets/images/1.jpg
+image: >-
+  /_posts/how-the-gigantic-mirrors-finally-bringing-winter-sun-to-a-norwegian-town-work.jpg
 beforetoc: Lorem Dipsum before table of content
 toc: true
 ---
