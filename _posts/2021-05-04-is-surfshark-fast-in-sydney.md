@@ -43,7 +43,7 @@ Details of my home network environment:
 
 I wirelessly connect my computer to internet. Since the 160Mhz bandwidth WIFI5 (aka 802.11ac Wave2) offers 1733Mbps link rate, the actual throughput is much over the NBN speed limit so I don't bother to connect it with a LAN wire.
 
-![Connection link rate when doing the test](/assets/images/SurfShark/2021-05-04_AX200.jpg)
+![Connection link rate when doing the test]({{site.baseurl}}/assets/images/SurfShark/2021-05-04_AX200.jpg)
 
 ### VPN Speed Test Method
 
@@ -61,7 +61,7 @@ I am interested to find out which of the above offers the fastest connection.
 2. Connect to SurfShark Sydney server with connection mode manually selected
 3. Run Ookla speed test in CLI, auto mode (without any parameter settings), run 3 times for each VPN connection mode.
 
-![SurfShark-ShadowSocks-Warning](/assets/images/SurfShark/2021-05-04_SurfShark-SS-Warning.jpg)
+![SurfShark-ShadowSocks-Warning]({{site.url}}/assets/images/SurfShark/2021-05-04_SurfShark-SS-Warning.jpg)
 
 Noted that ShadowSocks only routes the browser traffic and bypass others types of connection, it doesn't fit in our test method run by CLI. Since ShadowSocks is designed for bypassing Internet censoredship or firewall, I think it's OK to leave ShadowSocks alone as most Australians don't require this. 
 

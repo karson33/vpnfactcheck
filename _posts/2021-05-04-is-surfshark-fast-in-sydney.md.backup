@@ -43,7 +43,7 @@ Details of my home network environment:
 
 I wirelessly connect my computer to internet. Since the 160Mhz bandwidth WIFI5 (aka 802.11ac Wave2) offers 1733Mbps link rate, the actual throughput is much over the NBN speed limit so I don't bother to connect it with a LAN wire.
 
-![Connection link rate when doing the test](/assets/images/SurfShark/2021-05-04_AX200.jpg)
+![Connection link rate when doing the test]({{site.baseurl}}/assets/images/SurfShark/2021-05-04_AX200.jpg)
 
 ### VPN Speed Test Method
 
