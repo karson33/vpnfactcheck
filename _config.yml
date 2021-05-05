@@ -2,7 +2,7 @@
 name: "VPN Fact Check"
 title: "Side blog of vpnfactcheck.com"
 description: "Deep dive into the VPN world."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/VPN_FACTCHECK-removebg-80.png'
 favicon: 'assets/images/logo.png'
 baseurl: /vpnfactcheck
 google_analytics: 'UA-xxxxxxxx-1'
@@ -38,7 +38,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -46,11 +46,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 highlighter: rouge
 markdown: kramdown
