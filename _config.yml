@@ -1,7 +1,7 @@
 # Site
 name: "VPN Fact Check"
 title: "Side blog of vpnfactcheck.com"
-description: "Deep dive into the VPN world."
+description: "Deep dive into the VPN world"
 logo: 'assets/images/VPN_FACTCHECK-removebg-80.png'
 favicon: 'assets/images/logo.png'
 baseurl: /vpnfactcheck
@@ -15,20 +15,14 @@ email: vpnfactcheck@gmail.com
 # Authors
 authors:
 
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-
   karson33:
     name: karson33
     display_name: Karson33
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    gravatar: 623c471df65921b37ebe8e8b7db695a8
     email: vpnfactcheck@gmail.com
     web: https://vpnfactcheck.com
     twitter: https://twitter.com/vpnfactcheck
-    description: "VPN testing enthusiastic, founder of VPNFACTCHECK.com."
+    description: "VPN testing enthusiastic - ask me to test anything about VPN"
 
 # Plugins
 plugins:

@@ -17,21 +17,21 @@ A few days ago I tested [how fast the SurfShark VPN servers located in Sydney](h
 
 * considering to purchase [SurfShark VPN](https://surfshark.com/) or comparing it with other VPNs, or 
 * **Brisbane/QLD** is your primary VPN destination, 
-* you are SurfShark user and want to optimize the VPN connection speed
+* you are a SurfShark user and want to optimize the VPN connection speed
 
 you shall be interested in this article. 
 
 ## Brisbane VPN Speed Test Setup
 
-The network test setup and method is the same as last time test ([detailed specifications](https://karson33.github.io/vpnfactcheck/is-surfshark-fast-in-sydney/)). In short, I am testing the SurfShark VPN via NBN 250/20 speed plan.
+The network test setup and method are the same as the last test ([detailed specifications](https://karson33.github.io/vpnfactcheck/is-surfshark-fast-in-sydney/)). In short, I am testing the SurfShark VPN via NBN 250/20 speed plan.
 
-Different from last test to Sydney VPN server, the Brisbane servers are a bit "remote" (I am living in Sydney) - about 1000km away. This physical distance adds a bit latency (ping value) in the test.
+Different from the last test to the SurfShark Sydney VPN servers, the Brisbane servers are a bit "remote" (I am living in Sydney) - about 1000km away. This physical distance adds a bit of latency (ping value) in the test.
 
-Light travels at [300,000km per seconds](https://en.wikipedia.org/wiki/Speed_of_light), it takes at least 3.3ms for a internet traffic travels one way from Sydney to Brisbane, and 6.6ms two-ways. Still, this magnitude of increase in latency is intangible in daily use case. 
+Light travels at [300,000km per second](https://en.wikipedia.org/wiki/Speed_of_light), it takes at least 3.3ms for a internet packet to travel one way from Sydney to Brisbane, and 6.6ms two-ways. Still, this magnitude of increase in latency is intangible in the daily use cases. 
 
 ### VPN Speed Test Method
 
-Same VPN speed test procedure as [last time](https://karson33.github.io/vpnfactcheck/is-surfshark-fast-in-sydney/), I will run Ookla speedtest to SurfShark four types VPN connection protocols: 
+Same VPN speed test procedure as [last time](https://karson33.github.io/vpnfactcheck/is-surfshark-fast-in-sydney/), I will run Ookla speedtest to SurfShark four types of VPN connection protocols: 
 
 1. IKEv2
 2. OpenVPN(TCP)
@@ -72,7 +72,7 @@ Screenshots of the VPN speedtest results:
 
 Yes, it's as fast as in Sydney.
 
-50Mbps is well enough to stream Netflix 4k smoothly so it's safe to say 200Mbps SurfShark speed in Brisbane is fast enough for most internet user. 
+50Mbps is well enough to stream Netflix 4k smoothly so it's safe to say 200Mbps SurfShark speed in Brisbane is fast enough for the most internet users. 
 
 For the optimum VPN connection speed, it's suggested to manually select the connection mode in **IKEv2 or WireGuard** mode.
 
@@ -84,8 +84,8 @@ I am interested to know what will be the speed test results for VPN servers in V
 
 After that, I will work on speed consistency, unblocking capabilities, safety features and also extend the test to other VPN brands.
 
-I hope this article helps you. Do not hesitate to left comment if you have anything in mind. Happy to discuss.
+I hope this article helps you. Do not hesitate to left comments if you have anything in mind. Happy to discuss.
 
-For more SurfShark VPN tests, please click the "SurfShark" tag; for more performance test to Brisbane local servers, please click the "Brisbane" tag, below the content of the post. 
+For more SurfShark VPN tests, please click the "SurfShark" tag; for more performance tests to Brisbane local servers, please click the "Brisbane" tag, below the content of the post. 
 
 Peace.

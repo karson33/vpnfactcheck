@@ -116,7 +116,7 @@ img, img:hover {
 // menu
 .navbar-brand img {
     max-height:80px;
-//    margin-bottom:40px;
+    margin-bottom:40px;
 //    margin-top:40px;
 }
 .sidebar {
@@ -668,8 +668,14 @@ body.active-side {
 @media (max-width: 600px) {
     .navbar-brand img {
         max-height: 40px;
+        margin-bottom:0px;
+        margin-top: -40px;
     }
     
+    .sitetag {
+        font-size: 35px;
+    }
+
     .nav-icon, .sidebar, .share, .wrap-search {
         position:relative;
     }
