@@ -13,7 +13,7 @@ comments_id: 2
 
 ---
 
-Previously I have tested [SurfShark VPN speed performance with regards its servers in Sydney](https://karson33.github.io/vpnfactcheck/is-surfshark-fast-in-sydney/). In this test, I am going to find out how fast the [VyprVPN](https://vyprvpn.com/) Sydney servers are. If you are:
+Previously I have tested [SurfShark VPN speed performance with regard to its servers in Sydney](https://karson33.github.io/vpnfactcheck/is-surfshark-fast-in-sydney/). In this test, I am going to find out how fast the [VyprVPN](https://vyprvpn.com/) Sydney servers are. If you are:
 
 * considering to purchase VyprVPN or comparing it with other VPNs, or 
 * Sydney is your primary VPN destination, 
@@ -23,11 +23,11 @@ then the test data in this article is valuable to your decision.
 
 ## Sydney VPN Speed Test Setup
 
-If you only care about the results, just jump to results section, though I think the process is also as interesting as the results. The test setup for VyprVPN testing is the same as for SurfShark.
+If you only care about the results, just jump to the results section, though I think the process is also as interesting as the results. The test setup for VyprVPN testing is the same as for SurfShark.
 
 ### Network Environment
 
-I am running speed test on NBN 250 plan in Sydney. The fixed broadband speed index of Australia is 75Mbps (ranking 56th globally as the [Global Index from Speedtest.net](https://www.speedtest.net/global-index) ) In this regard I should be grateful that my shoebox city apartment has the optic fibre connection. 
+I am running speed tests on NBN 250 plan in Sydney. The fixed broadband speed index of Australia is 75Mbps (ranking 56th globally as the [Global Index from Speedtest.net](https://www.speedtest.net/global-index) ) In this regard I should be grateful that my shoebox city apartment has the optic fibre connection. 
 
 Details of my home network environment:
 
@@ -36,7 +36,7 @@ Details of my home network environment:
 * Intel AX200 160Mhz
 * Link Speed (Receive/Transmit): 1733/1300 (Mbps)
 
-I wirelessly connect my computer to internet. Since the 160Mhz bandwidth WIFI5 (aka 802.11ac Wave2) offers 1733Mbps link rate, the actual throughput is much over the NBN speed limit so I don't bother to connect it with a LAN wire.
+I wirelessly connect my computer to the internet. Since the 160Mhz bandwidth WIFI5 (aka 802.11ac Wave2) offers 1733Mbps link rate, the actual throughput is much over the NBN speed limit so I don't bother to connect it with a LAN wire.
 
 ![Connection link rate when doing the test]({{site.baseurl}}/assets/images/SurfShark/2021-05-04_AX200.jpg)
 
@@ -51,7 +51,7 @@ VyprVPN offers 5 VPN connection protocols:
 
 I am interested to find out which of the above offers the fastest connection. Hereby below the test procedures:
 
-1. Manually select one of the VPN mode: IKEv2 / OpenVPN / Chameleon / WireGuard
+1. Manually select one of the VPN modes: IKEv2 / OpenVPN / Chameleon / WireGuard
 2. Connect to VyprVPN Sydney server with connection mode manually selected
 3. Run Ookla speed test in CLI, auto mode (without any parameter settings), run 3 times for each VPN connection mode.
 
@@ -81,7 +81,7 @@ After running 3 x 5 = 15 times speedtest, hereby below the Sydney VyprVPN server
 | OpenVPN        | 35 Mbps       | 5 ms    |0% |
 | NO VPN           | 233 Mbps       | 3 ms    |0% |
 
-Significant difference was found between VyprVPN's 4 VPN connection protocols - the fastest WireGuard is 6 times faster than the slowest OpenVPN. 
+Significant differences were found between VyprVPN's 4 VPN connection protocols - the fastest WireGuard is 6 times faster than the slowest OpenVPN. 
 
 Screenshots of the speedtest results:
 
@@ -107,13 +107,13 @@ However, if your device supports only OpenVPN, then VyprVPN's speed won't satisf
 
 SurfShark VPN's OpenVPN is 3 times faster than VyprVPN's.
 
-Having said that, I think seldom computer and mobile support only OpenVPN. It only happens to me that wireless router and Linux-operated devices has limited support to IKEv2 and WireGuard.
+Having said that, I think seldom computer and mobile support only OpenVPN. It only happens to me that wireless router and Linux-operated devices have limited support to IKEv2 and WireGuard.
 
 ## Keep posted
 
-I hope this article helps you. Do not hesitate to left comment if you have anything in mind. Happy to discuss.
+I hope this article helps you. Do not hesitate to left comments if you have anything in mind. Happy to discuss.
 
-I will keep posted on [Twitter](https://twitter.com/vpnfactcheck) when I completed the below tests in the furture:
+I will keep posted on [Twitter](https://twitter.com/vpnfactcheck) when I completed the below tests in the future:
 
 * Speedtest to other Australian servers
 * Speedtest to oversea servers
