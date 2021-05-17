@@ -45,7 +45,7 @@ I wirelessly connect my computer to the internet. Since the 160Mhz bandwidth WIF
 
 ### VPN Speed Test Method
 
-CyberGhost offers 5 VPN connection protocols: 
+CyberGhost offers 3 VPN connection protocols: 
 
 1. WireGuard
 2. IKEv2
@@ -81,11 +81,11 @@ Noted that in one occasion of OpenVPN connection to CyberGhost Melbourne, the co
 
 After running 3 x 3 = 9 times speedtest, hereby below the Melbourne CyberGhost server speed results:
 
-| SurfShark Sydney | Download Speed | Latency | Packet Loss |
+| CyberGhost Melbourne | Download Speed | Latency | Packet Loss |
 |------------------|----------------|---------|---------|
-| WireGuard             | 216 Mbps       | 4 ms   | 0% |
-| IKEv2     | 149 Mbps       | 5 ms    | 2.1% |
-| OpenVPN        | 35 Mbps       | 5 ms    |0% |
+| WireGuard             | 200 Mbps       | 15 ms   | 0% |
+| IKEv2     | 193 Mbps       | 25 ms    | 0% |
+| OpenVPN        | 78 Mbps       | 15 ms    |0% |
 | NO VPN           | 233 Mbps       | 3 ms    |0% |
 
 Among the three CyberGhost VPN protocols - WireGuard and IKEv2 touch 200Mbps, the slowest OpenVPN can still offer 80~100Mbps. The zero packet loss rate in WireGuard is amazing. Previously tests on SurfShark and VyprVPN neither of them returns absolute 0% loss in WireGuard (the fastest) connection mode.
